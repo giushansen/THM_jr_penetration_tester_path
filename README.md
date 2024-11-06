@@ -20,6 +20,7 @@ This stage involves discovering applications and services running on the systems
 
 **Exploitation**  
 This stage involves leveraging vulnerabilities discovered on a system or application. This stage can involve the use of public exploits or exploiting application logic.  
+  
 **Privilege Escalation**  
 Once you have successfully exploited a system or application (known as a foothold), this stage is the attempt to expand your access to a system. You can escalate horizontally and vertically, where horizontally is accessing another account of the same permission group (i.e. another user), whereas vertically is that of another permission group (i.e. an administrator).  
 
