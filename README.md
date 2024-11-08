@@ -31,4 +31,17 @@ This stage involves a few sub-stages:
 3. Covering your tracks  
 4. Reporting
 
+## Web application walkthrough
+In HTML source we can find:  
+- `comments` and `hidden links` in html source
+- `directories` for open permissions  
+- `framework version`  
+- `manipulate` HTML via inspector  
+- breakpoint `debugger` in js code  
+- `network` information  
+
+## Content discovery
+
+
+
 
