@@ -42,6 +42,24 @@ In HTML source we can find:
 
 ## Content discovery
 
+**Manual**  
+- `robots.txt`
+- `favicon` revealing the framework used (md5 sum the result and look in https://wiki.owasp.org/index.php/OWASP_favicon_database)  
+- `sitemap.xml` (more URLs)  
+- `curl -v` (check versions of software used)  
+- `admin URL` for instance gotten from framework websites
 
+**OSINT**  
+
+- `site:tryhackme.com admin` Google hacking/dorking  
+- `technologies` used with Wappalyzer (https://www.wappalyzer.com/)  
+- The Wayback Machine `https://archive.org/web/`
+- `GitHub`'s search feature to look for company names or website names
+- `S3 buckets` can be discovered  
+
+**Automated**  
+
+- `wordlists` for passwords, directories and filenames  
+- Automation tools like `ffuf, dirb and gobuster`
 
 
