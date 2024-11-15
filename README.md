@@ -97,5 +97,14 @@ Create an account and then:
 
 ## IDOR
 
+- changing `IDs` in URLs  
+- can also be done `decoding/encoding` again data in cookies, POST data and see server responses
+- `https://crackstation.net/` for maybe finding the data behind IDs in this DB of billions of md5 hash to value results
+- check IDOR possibilities by creating 2 accounts and then checking out each other account when logged in (or not)
+- can also come from `AJAX call` and change of parameters ($.ajax({ type: "GET", url: "https://10-10-206-77.p.thmlabs.com/api/v1/customer?id=3" });)  
+
+
+
+- 
 
 
